@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Crete+Round:ital@0;1&family=Rubik+Bubbles&display=swap');
 :root {
   --cor-de-fundo: #000002;
   --verde: #6FFF57;
@@ -18,7 +18,9 @@
 body {background: rgb(246,246,246);
   background: radial-gradient(circle, rgba(246,246,246,0) 0%, rgba(0,89,238,1) 62%, rgba(0,212,255,1) 100%);
   color: var(--branco);
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .conteudo-principal {
@@ -42,7 +44,9 @@ body {background: rgb(246,246,246);
 }
 
 .botao {
-  font-family: "Crakra Petch", sans-serif;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
   background-color: var(--cor-azul-cclara);
   color: var(--cor-preta);
   display: flex;
@@ -95,7 +99,7 @@ body {background: rgb(246,246,246);
 }
 .aba-conteudo-titulo-secundario{
   text-align: center;
- color: var(--cor-azul-cclara);
+ color: var(--cor-azul);
   text-transform: uppercase;
 }
 .contador{
@@ -118,4 +122,5 @@ body {background: rgb(246,246,246);
   font-size: 20px;
   margin: 0;
 }
+
 
