@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Marck+Script&display=swap');
+:root {
+  --cor-de-fundo: #000002;
+  --verde: #6FFF57;
+  --branco: #FFFFFF;
+  --botao-ativo: #3A375E;
+  --botao-inativo: rgba(58, 55, 94, 0.5);
+  --texto-fundo: rgba(58, 55, 94, 0.3);
+  --cor--vermelha:#FF0000;
+  --cor-amarela:#FFFF00;
+  --cor-azul:#0000FF;
+  --cor-preta:#000000;
+  --cor-rosa:#FF1493;
+  --cor-azul-cclara:#00FFFF;
+  --cor-azil-clara-2:#B0E0E6;
+}
+
+body {background: rgb(246,246,246);
+  background: radial-gradient(circle, rgba(246,246,246,0) 0%, rgba(0,89,238,1) 62%, rgba(0,212,255,1) 100%);
+  color: var(--branco);
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.titulo-principal {
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
+}
+
+.titulo-principal span {
+  color: var(--cor-azul);
+}
+
+.botao {
+  font-family: "Crakra Petch", sans-serif;
+  background-color: var(--cor-azul-cclara);
+  color: var(--cor-preta);
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 4px solid var(--botao-ativo);
+  border-left: 2px solid var(--branco);
+  border-right: 2px solid var(--branco);
+  border-top: none;
+
+
+  
+
+}
+  @media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
+    }
+
+    .ativo{
+      background-color: var(--cor-azil-clara-2);
+      border-bottom: 4px solid var(--branco);
+      }
+     
+      .abas-textos{
+        background-color: var(--texto-fundo);
+        padding: 40px;
+        border-radius: 0 0 40px 40px;
+    }
+    .aba-conteudo.ativo{display: block;}
+.botao:last-child{
+  border-radius: 0 40px 0 0;
+}
+  }
+
+
+    .aba-conteudo{
+      display: none;
+  }
+  .aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+  text-align: center;
+ color: var(--cor-azul-cclara);
+  text-transform: uppercase;
+}
+.contador{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contador-digito{
+  padding: 0 16px;
+  text-align: center;
+  min-width: 100px;
+}
+
+.contador-digito-numero{
+  font-size: 80px;
+  margin: 0;
+}
+.contador-digito-texto{
+  color: var(--cor-de-fundo);
+  font-size: 20px;
+  margin: 0;
+}
+
